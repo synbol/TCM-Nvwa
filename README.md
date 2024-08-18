@@ -17,7 +17,17 @@ we introduce Nüwa, a comprehensive Traditional Chinese Medicine LLM that encomp
 
 ### 🔥 News and Updates
 
+✅ [2024/08/15] Nüwa starts releasing dataset, code, etc.
+
+✅ [2024/08/01] Nüwa TCM repo is created.
+
 ### 📚 Data
+
+- `data/pretrain`: Contains part of TCM corpus for continuous pre-training the model.
+
+- `data/finetune`: Contains part of TCM-QR for supervised instruction fine-tuning the model.
+
+- `data/reward`: Contains samples for training the reward model.
 
 ### ⭐ Code Structure
 
