@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="assets/nvwa.png" height="100" alt="Logo">
+    <img src="assets/nvwa.png" height="100" alt="Logo"> Nüwa
     <h2 style="font-size: 50pt;" align=center><strong>Nüwa</strong></h2>
   </a>
 </div>
