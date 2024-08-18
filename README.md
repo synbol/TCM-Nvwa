@@ -30,6 +30,15 @@ we introduce Nüwa, a comprehensive Traditional Chinese Medicine LLM that encomp
 - `data/reward`: Contains samples for training the reward model.
 
 ### ⭐ Code Structure
+Training Stage:
+
+| Stage                            |  Python script                                                                                                           | Shell script                                                                        |                      
+|:--------------------------------|:------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------|
+| Stage 1: Continue Pre-training   |  pretraining.py                     | run_pt.sh   | 
+| Stage 2: Supervised Instruction Fine-tuning | supervised_finetuning.py            | run_sft.sh  | 
+| Stage 3: Reward Modeling        | reward_modeling.py                  | run_rm.sh   | 
+| Stage 4: Reinforcement Learning |  rl_training.py                      | run_rl.sh| 
+
 
 ### ⚙️ Getting Started
 
