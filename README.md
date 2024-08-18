@@ -3,8 +3,8 @@
   </a>
 </div>
 
-### Nüwa
-### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Towards Large Language Model to Be a Traditional Chinese Medicine Doctor
+### &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Nüwa
+### &emsp;&emsp;&emsp;&emsp;&emsp;Towards Large Language Model to Be a Traditional Chinese Medicine Doctor
 
 
 
