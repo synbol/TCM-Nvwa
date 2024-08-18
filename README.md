@@ -3,6 +3,9 @@
   </a>
 </div>
 
+## Nüwa
+### Towards Large Language Model to Be a Traditional Chinese Medicine Doctor
+
 
 
 ### 📖 Introduction
