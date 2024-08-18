@@ -35,15 +35,74 @@ Training Stage:
 | Stage                            |  Python script                                                                                                           | Shell script                                                                        |                      
 |:--------------------------------|:------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------|
 | Stage 1: Continue Pre-training   |  pretraining.py                     | run_pt.sh   | 
-| Stage 2: Supervised Instruction Fine-tuning | supervised_finetuning.py            | run_sft.sh  | 
+| Stage 2: Supervised Instruction Fine-tuning | supervised_finetuning.py | run_sft.sh  | 
 | Stage 3: Reward Modeling        | reward_modeling.py                  | run_rm.sh   | 
 | Stage 4: Reinforcement Learning |  rl_training.py                      | run_rl.sh| 
 
 
-### ⚙️ Getting Started
-
 ### 🐌 Quick Start
 
+#### 👉 Environment Setup
+- To install the required packages, you can create a conda environment.
+
+```sh
+conda create --name nvwa-tcm python=3.8
+```
+
+- Activate conda environment.
+
+```sh
+conda activate nvwa-tcm
+```
+
+- Use pip to install required packages.
+
+```sh
+pip install -r requirements.txt
+```
+
+#### 👉 Download base model
+
+- Please download the LLaMA-Ziya-13B model from the link [Download Link](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-13B-v1).
+
+
+#### 👉 Training
+
+- 1. Continuous Pre-training
+
+```sh
+bash run_pt.sh
+```
+
+- 2. Supervised Instruction Fine-tuning
+
+```sh
+bash run_sft.sh
+```
+
+The LoRA method is used here, and the parameters need to be merged into the Model
+
+```sh
+python merge_peft_adapter.py
+```
+
+- 3. Reward Modeling
+ 
+```sh
+bash run_rm.sh
+```
+
+- 4. Reward Modeling
+ 
+```sh
+run_rl.sh
+```
+
+#### 👉 Inference
+
+```sh
+python inference.py
+```
 
 
 
