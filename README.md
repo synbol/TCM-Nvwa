@@ -12,7 +12,7 @@
 we introduce Nüwa, a comprehensive Traditional Chinese Medicine LLM that encompasses the entire training pipeline from Continuous Pre-training and Supervised Instruction Fine-tuning to Reinforcement Learning from AI Feedback. Nuwa outperforms other open-source Chinese medical LLMs within TCM domain, thanks in part to our construction of a large-scale TCM training corpus and TCM dialogue dataset.
 
 <div align="center">
-<img src="assets/flowchart.png" width="100%" height="100%">
+<img src="assets/flowchart.png" width="75%" height="75%">
 </div>
 
 ### 🔥 News and Updates
