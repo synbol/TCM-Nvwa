@@ -1,6 +1,6 @@
 <div align="center">
     <img src="assets/nvwa.png" height="60" alt="Logo">
-    <h4 style="font-size: 50pt;" align=center><strong>Nüwa</strong></h2>
+    <h3 style="font-size: 50pt;" align=center><strong>Nüwa</strong></h2>
   </a>
 </div>
 
