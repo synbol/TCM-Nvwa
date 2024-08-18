@@ -8,5 +8,20 @@
 <h2 style="font-size: 50pt;" align=center><strong>Towards Large Language Model to Be a Traditional Chinese Medicine Doctor</strong></h2>
 </div>
 
+### 📖 Introduction
+
+
+### 🔥 News and Updates
+
+### 📚 Data
+
+### ⭐ Code Structure
+
+### ⚙️ Getting Started
+
+### 🐌 Quick Start
+
+
+
 
 
