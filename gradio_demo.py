@@ -1,6 +1,3 @@
-pip install gradio
-pip install mdtex2html
-"""
 import argparse
 import os
 
