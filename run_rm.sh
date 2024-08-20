@@ -1,6 +1,6 @@
 CUDA_VISIBLE_DEVICES=0,1 python reward_modeling.py \
-    --model_type bloom \
-    --model_name_or_path bigscience/bloomz-560m \
+    --model_type llama \
+    --model_name_or_path ./Ziya-LLaMA-13B-v1 \
     --train_file_dir ./data/reward \
     --validation_file_dir ./data/reward \
     --per_device_train_batch_size 4 \
