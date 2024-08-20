@@ -1,6 +1,6 @@
 CUDA_VISIBLE_DEVICES=0,1 torchrun --nproc_per_node 2 rl_training.py \
-    --model_type bloom \
-    --model_name_or_path bigscience/bloomz-560m \
+    --model_type llama \
+    --model_name_or_path ./Ziya-LLaMA-13B-v1 \
     --reward_model_name_or_path OpenAssistant/reward-model-deberta-v3-large-v2 \
     --torch_dtype float16 \
     --device_map auto \
