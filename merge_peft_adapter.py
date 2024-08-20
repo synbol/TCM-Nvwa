@@ -1,8 +1,4 @@
-# -*- coding: utf-8 -*-
 """
-@author:XuMing(xuming624@qq.com)
-@description:
-
 Usage:
 python merge_peft_adapter.py \
     --base_model_name_or_path path/to/llama/model \
