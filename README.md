@@ -16,7 +16,7 @@ We introduce Nüwa, a comprehensive Traditional Chinese Medicine LLM that encomp
 
 ### 🔥 News and Updates
 
-✅ [2024/04/15] Nüwa starts releasing dataset, code, etc.
+✅ [2025/04/05] Nüwa starts releasing dataset, code, etc.
 
 ✅ [2025/04/01] Nüwa TCM repo is created.
 
