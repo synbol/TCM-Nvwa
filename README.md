@@ -14,11 +14,6 @@ We introduce Nüwa, a comprehensive Traditional Chinese Medicine LLM that encomp
 <img src="assets/flowchart.png" width="75%" height="75%">
 </div>
 
-### 🔥 News and Updates
-
-✅ [2025/04/05] Nüwa starts releasing dataset, code, etc.
-
-✅ [2025/04/01] Nüwa TCM repo is created.
 
 ### 📚 Data
 
